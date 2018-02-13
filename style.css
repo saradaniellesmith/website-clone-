@@ -3,12 +3,16 @@ body {
 }
 
 header {
-    margin: 40px;
+    margin: 20px;
     color: white;
     font-family: "aktiv-grotesk",sans-serif;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.header-left {
+    font-size: 18px;
 }
 
 .header-middle {
@@ -17,10 +21,6 @@ header {
    flex-direction: row;
    display: flex;
    justify-content: space-between;
-}
-
-.header-left {
-    font-size: 18px;
 }
 
 .header-middle p {
@@ -33,10 +33,10 @@ header {
     color: white;
     background-color: #0828cc;
     font-family: "aktiv-grotesk",sans-serif;
-    font-size: 12px;
+    font-size: 11px;
     transition: background-color .5s;
     border-radius: 25px;
-    padding: 15px 35px 15px 35px;
+    padding: 15px 25px 15px 25px;
     border: 1px solid white;
 }
 
@@ -44,10 +44,12 @@ header {
     background-color: white;
     color: #0828cc;
 }
+
  .start {
     text-align: center;
-    width: 200px;
-    margin-left: 650px;
+    width: 190px;
+    margin: 0 auto;
+    margin-top: 75px;
     padding-top: 20px;
     padding-bottom: 20px;
     color: #0828cc;
@@ -56,12 +58,23 @@ header {
     font-size: 12px;
     transition: background-color .5s;
     border-radius: 25px;
-    border: 1px solid white;
+    border: 1px solid white; 
 }
 
 .start:hover {
     background-color: #0828cc;
     color: white;
+   
+}
+
+div {
+    margin: 35px;
+        
+}
+
+.logo2 {
+    display: flex;
+    justify-content: center;
 }
 
 h1 {
@@ -70,51 +83,38 @@ h1 {
     text-align: center;
     font-size: 56px;
     letter-spacing: -0.028px;
-    line-height: 68.32px;
+    line-height: 60px;
+   
 }
 
 .main-text {
     color: white;
     font-family: "aktiv-grotesk",sans-serif;
     text-align: center;
-    font-size: 18px;
-    line-height: 34.24px;
-    flex-wrap: wrap;
-    margin: 0 400px 0 400px; 
+    font-size: 17px;
+    line-height: 35px;
+    margin: 0 370px 0 370px; 
 }
 
 #scroll {
-    justify-content: center;
-    display: flex;
     color: white;
     font-family: "aktiv-grotesk",sans-serif;
-    margin-top: 95px;
     font-size: 14px;
     text-align: center;
     width: 200px;
-    margin-left: 650px;
+    margin: 0 auto;
+    margin-top: 80px;
+ 
 }
 
-.logo2 {
-    display: flex;
-    justify-content: center; 
-}
-
-div {
-    margin: 40px;
-    
-}
-
-.t {
-    width: 50px;
-    height: 50px;
+.icon {
+    width: 40px;
+    height: 40px;
     border-radius: 25px;
     border: 1px solid white;
     background-color: none;  
     text-align: center;
     color: white;
     font-family: "aktiv-grotesk",sans-serif; 
-}
-
-.social-media {
+    
 }
